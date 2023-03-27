@@ -1,0 +1,98 @@
+.room-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+  }
+  
+  .room-details h1 {
+    font-size: 48px;
+    margin: 0 0 20px;
+    color: #454545;
+    text-align: center;
+  }
+  
+  .room-details img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 30px 30px 0;
+  }
+  
+  .room-details .description {
+    flex: 1;
+    color: #666;
+  }
+  
+  .room-details .description p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .room-details .description ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .room-details .description ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .room-details .description .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .room-details .description .price span {
+    color: #FF9800;
+  }
+  
+  .room-details form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .room-details form label {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .room-details form input[type="date"],
+  .room-details form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .room-details form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 20l-9-9h18l-9 9zm0-13c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8z'/%3E%3C/svg%3E") no-repeat right 10px center/20px auto;
+  }
+  
+  .room-details form button {
+    background-color: #FF9800;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .room-details form button:hover {
+    background-color: #FFB74D;
+  }
+  

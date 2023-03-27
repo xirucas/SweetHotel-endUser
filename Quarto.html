@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Quarto.css">
+    <title>Hotel</title>
+</head>
+<body>
+    <div class="room-details">
+        <h1>Quarto Deluxe</h1>
+        <img src="https://backoffice.vilavitaparc.com/sites/default/files/styles/heroimg/public/imgs/Deluxe%20room%20garden%20view.jpg?itok=ty1KrxmC" alt="Imagem do quarto">
+        <div class="description">
+          <p>O quarto Deluxe é uma escolha ideal para quem procura um ambiente tranquilo e acolhedor. Com uma cama king-size, um espaçoso armário, mesa de trabalho e uma confortável poltrona, este quarto oferece o máximo conforto para a sua estadia.</p>
+          <ul>
+            <li>Área do quarto: 30m²</li>
+            <li>Wi-Fi gratuito</li>
+            <li>Televisão de tela plana com canais a cabo</li>
+            <li>Ar-condicionado</li>
+            <li>Minibar</li>
+            <li>Cafeteira</li>
+            <li>Secador de cabelo</li>
+            <li>Artigos de higiene pessoal gratuitos</li>
+          </ul>
+          <p class="price">Preço por noite: <span>€150</span></p>
+          <form>
+            <label for="checkin">Check-in:</label>
+            <input type="date" id="checkin" name="checkin" required>
+  
+            <label for="checkout">Check-out:</label>
+            <input type="date" id="checkout" name="checkout" required>
+  
+            <label for="extras">Extras:</label>
+            <select id="extras" name="extras">
+              <option value="none">Nenhum</option>
+              <option value="breakfast">Pequeno-almoço - €10 por pessoa</option>
+              <option value="pool">Acesso à piscina - €5 por pessoa</option>
+              <option value="spa">Massagem no spa - €50 por pessoa</option>
+            </select>
+  
+            <button type="submit">Reservar agora</button>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
